@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.example.user.notification"
+        applicationId "com.example.user.notification_layout"
         minSdkVersion 19
         targetSdkVersion 23
         versionCode 1
