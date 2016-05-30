@@ -37,6 +37,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 Intent intent = new Intent(this, NotificationActivity.class);
                 PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_CANCEL_CURRENT);
                 builder.setContentIntent(pendingIntent);
+               // builder.setVibrate (new long[] {0,2000,3000,4000} );
                 Notification notification = builder.build();
                 manager.notify(1,notification);
                 break;
